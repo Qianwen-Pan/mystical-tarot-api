@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const dotenv = require('dotenv');
 const tarotRouter = require('./routes/tarot');
-
+const cors = require('cors');
 
 dotenv.config();
 
@@ -11,6 +11,7 @@ const port = process.env.PORT || 3000;
 
 // Serve static files from the public directory
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(cors());
 
 // Use the tarot router for /api routes
 app.use('/api', tarotRouter);
