@@ -14,8 +14,9 @@ const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
-// Use the tarot router for /api routes
+
 app.use('/cards', cardsRouter);
+app.use('/games', gamesRouter);
 
 // Start the server
 app.listen(port, () => {
