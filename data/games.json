@@ -9,6 +9,7 @@
         "cardsRepresent": ["Pros", "Cons", "Outcome"],
         "image": "assets/images/universe.png",
         "back_image": "assets/images/tarot_back.png",
+        "isLocked": false,
         "cards":[
             {
                 "id": 1,
@@ -226,12 +227,13 @@
         "id": "5454a6d4-0e84-4085-a4ac-fd984a9bae8f",
         "name": "Card of the Day",
         "title": "Card of the Day",
-        "subTitle": "Discover insights to guide your choices.",
+        "subTitle": "Gain daily insights and guidance from the tarot.",
         "instruction": "Please select  cards from the deck. These cards will represent the  of your decision to help you make an informed choice.",
         "cardsNumber": 1,
         "cardsRepresent": ["Your Day Card"],
         "image": "assets/images/blue_m.png",
         "back_image": "assets/images/tarot_back.png",
+        "isLocked": false,
         "cards":[
             {
                 "id": 1,
@@ -575,6 +577,7 @@
         "cardsRepresent": [],
         "image": "assets/images/single_flower.png",
         "back_image": "assets/images/tarot_back.png",
+        "isLocked": false,
         "cards":[
             {
                 "id": 1,
@@ -909,15 +912,16 @@
         ]
     },
     {
-        "id": "502aaff2-6e4b-4a6e-98af-083de9293fdc",
-        "name": "Dream Interpretation",
-        "title": "Tarot for Dream Interpretation",
-        "subTitle": "Unveil the hidden meanings in your dreams.",
+        "id": "502aaff2-6e4b-4a6e-98af-083de9293fdx",
+        "name": "Love Guidance",
+        "title": "Tarot for Love Guidance",
+        "subTitle": "Uncover insights to navigate your romantic relationships.",
         "instruction": "Please select  cards from the deck. These cards will represent the  of your decision to help you make an informed choice.",
         "cardsNumber": 1,
         "cardsRepresent": ["Your Day Card"],
-        "image": "assets/images/single_flower.png",
+        "image": "assets/images/two_circles.png",
         "back_image": "assets/images/tarot_back.png",
+        "isLocked": true,
         "cards":[
             {
                 "id": 1,
@@ -1252,15 +1256,16 @@
         ]
     },
     {
-        "id": "502aaff2-6e4b-4a6e-98af-083de9293fdc",
-        "name": "Dream Interpretation",
-        "title": "Tarot for Dream Interpretation",
-        "subTitle": "Unveil the hidden meanings in your dreams.",
+        "id": "502aaff2-6e4b-4a6e-98af-083de9293fdz",
+        "name": "Self-Discovery",
+        "title": "Tarot for Self-Discovery",
+        "subTitle": "Explore your inner self and unlock personal growth.",
         "instruction": "Please select  cards from the deck. These cards will represent the  of your decision to help you make an informed choice.",
         "cardsNumber": 1,
         "cardsRepresent": ["Your Day Card"],
-        "image": "assets/images/single_flower.png",
+        "image": "assets/images/swords.png",
         "back_image": "assets/images/tarot_back.png",
+        "isLocked": true,
         "cards":[
             {
                 "id": 1,
